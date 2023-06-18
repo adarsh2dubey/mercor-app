@@ -11,7 +11,7 @@ import { VscBellDot } from 'react-icons/vsc';
 import { BiMessageAltDots } from 'react-icons/bi';
 import { BsListTask } from 'react-icons/bs';
 import { RiAddBoxLine } from 'react-icons/ri';
-import logo from '../logo.svg';
+import logo from './images/people-3.png';
 
 const Header = () => {
 
@@ -71,14 +71,14 @@ const Header = () => {
             <VscBellDot size={25} />
           </div>
 
-          <div style={{ marginTop: "1rem" }} class="col  py-auto text-center">
+          <div id="nameAddress" class="col  py-auto text-center">
 
-            <p id="user"><span style={{ fontSize: "19px" }}> Arima Agarwal </span>  <br /> <span style={{ fontSize: "17px" }}> U.P. India </span></p>
+            <p id="user"><span id="name"> Arima Agarwal </span>  <br /> <span id="Address"> U.P. India </span></p>
 
 
           </div>
           <div className="avatar-container my-auto me-1">
-            <img src={logo} alt="Avatar" className="avatar-image" />
+            <img style={{borderRadius:"50%",height:'40px',width:"40px"}} src={logo} alt="Avatar" className="avatar-image" />
           </div>
 
 

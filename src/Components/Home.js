@@ -288,8 +288,8 @@ const Home = () => {
 
           </div>
         </div>
-        <div className="col-sm-12 col-md-5 col-lg-6">
-          <div class="my-auto me-2 d-flex justify-content-end">
+        <div className="col-sm-12 col-md-5  col-lg-6">
+          <div class="my-auto me-2 d-flex avatarMargin justify-content-end">
             <p style={{ padding: "10px", position: "relative", left: "30px", color: "#5030E5", fontFamily: 'Inter', fontStyle: "normal", fontWeight: "600", fontSize: "16px" }} class="my-auto text-end"> <span><IoIosAdd class="iconsInHome" size={20} /></span> Invite</p>
             {avatarData.map((avatar, index) => (
               <Avatar
@@ -315,7 +315,7 @@ const Home = () => {
 
         </div>
         <div className="col-lg-6 col-md-6 col-sm-12 my-1">
-          <div className="row me-2 justify-content-end">
+          <div className="row me-2 avatarMargin justify-content-end">
 
             <div style={{ width: "80px" }} class="box"> <MdOutlineGroupAdd /> <span>Share</span>    </div>
             <div style={{ width: "30px", border: 'none', color: "#787486" }} class="box "> <RxDividerVertical size={27} />     </div>
